@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+	<h1 id="title">Web Development for InfoViz</h1>
+	<section>
+		<h2>Outline</h2>
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>SVG</li>
+			<li>JS</li>
+			<li>DOM</li>
+		</ul>
+	</section>
+
+	<section>
+		<h2>Chart</h2>
+
+		<br>
+		<button id="btnShrink">Shrink it!</button>
+		<div>
+			<label id="lbRadius">Radius
+				<input type="range" min=1 max=100 value=10 />
+				<output>10</output>
+			</label>
+		</div>
+		<br>
+		<br>
+
+		<svg id="chart" width="100%" viewbox="0 0 100 60">
+			<circle cx="40" cy="40" r="10"></circle>
+			<circle cx="10" cy="40" r="10"></circle>
+			<circle cx="40" cy="10" r="10"></circle>
+			<circle cx="10" cy="10" r="10"></circle>
+		</svg>
+	</section>
+
+	<section>
+		<h2>Content</h2>
+
+		<div class="grid">
+			<div class="half">
+				Lorem ipsom dolor sit amet....
+			</div>
+
+			<br />
+
+			<div class="half">
+				Lorem ipsom dolor sit amet....
+			</div>
+		</div>
+	</section>
+
+	<a href="https://google.com">Link to Google here.</a>
+
+	<hr />
+	<footer>
+		<img
+			width="200px"
+			src="./file_name.png"
+			alt="An image example"
+		/>
+		<div>Made by Akiko</div>
+	</footer>
+
+	<script src="./main.js"></script>
+</body>
+</html>

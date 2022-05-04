@@ -1,0 +1,22 @@
+body {
+	font-family: sans-serif;
+	font-size: 1.3rem;
+	max-width: 800px;
+	margin: 30px;
+}
+
+.grid {
+	display: flex;
+}
+
+.half {
+	width: 50%;
+}
+
+h1#title {
+	color: firebrick;
+}
+
+circle {
+	fill: steelblue;
+}
